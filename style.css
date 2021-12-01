@@ -1,0 +1,62 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+body {
+	background: #ccdaf0 !important;
+	font-family: Montserrat;
+}
+
+.center {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.button {
+	display: inline-block;
+	padding: 15px;
+	margin-right: 5px;
+	height: 50px;
+	background: #198754;
+	border: none;
+	outline: none;
+	color: white;
+	font-family: inherit;
+	font-weight: 400;
+	font-size: 20px;
+	border-radius: 3px;
+	box-shadow: 0 5px 0px black;
+	border-bottom: 2px solid #198754;
+}
+
+.button:hover {
+	box-shadow: 0 5px 0px rgb(48, 216, 26);
+}
+
+.button:active {
+	transform: translateY(4px);
+	border-bottom-width: 2px;
+	box-shadow: none;
+}
+
+.copy {
+	width: 100px;
+}
+
+.header {
+	box-shadow: 0 5px 0px black;
+}
+
+.footer {
+	border-top: 2px solid black;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+	color: orange;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+}
